@@ -2,23 +2,42 @@ package ConditionalStatement;
 
 import java.util.Scanner;
 
+
+
 public class Qus2 {
     public static void main(String[] args) {
         Scanner x=new Scanner(System.in);
-    System.out.println("enter ur salary");  
-int a=x.nextInt();
-if(a>=250000 && a<=500000){
-    System.out.println("u hv to paid 5% tax "+(a*5)/100);
-}
-    else if (a>=500000&&a<=1000000){
-        System.out.println("u hv to paid 20% tax" +(a*20)/100 );
+        System.out.println("enter ur salary"); 
+        float income=x.nextInt();
+        float tax =0;
+            if(income<=250000){
+                   System.out.println(tax =income +tax);
+                    }
+            else if (income>250000&& income<=500000){
+                   tax= tax + 0.05f*(income-250000);
+                   System.out.println(tax);
+                  
+
+                    }
+            else if (income > 500000&& income<=1000000){
+              tax= tax + 0.05f*(500000-250000);
+                tax= tax + 0.2f*(income-500000);
+
+
+                    }
+             else{tax= tax + 0.05f*(500000-250000);
+                tax= tax + 0.2f*(1000000-500000);
+                tax=tax+0.3f*(income-1000000);
+
+
+                    
+                    }
+System.out.println(tax);
+
+
+
+  
     }
-    else if(a>=1000000){
-        System.out.println("u hv to paid 30% tax"+(a*30)/100);
-    }
-else{
-    System.out.println("u do not required to pay");
-}
 }
     
-}
+
