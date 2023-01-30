@@ -118,11 +118,10 @@ for(int i=1;i<=n;i++){
     Scanner x =new Scanner(System.in);
     int n=x.nextInt();
     for(int i=1;i<=n;i++){
-        for(int j=1;j<=i;j++){
-            System.out.print(i);
+    for(int j=1;j<=i;j++){
+    System.out.print(i);
 
-        }System.out.println("");
-    } int i=i+1;
+    
     }
  
 }
