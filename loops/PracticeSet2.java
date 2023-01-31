@@ -72,12 +72,24 @@ do{
 
 //qus(ii)
 
-int n =x.nextInt();
+/*int n =x.nextInt();
 int i=1; 
 do{
     System.out.print("*");
     i++;
 }while(i<=n);
+*/
+System.out.println("enter  no for pattren");
+    int n=x.nextInt();int sum=1
+    for (int i=1;i<=n;i++){
+        for(int j=1;j<=-i;j++){
+           sum =sum+1;
+           System.out.print();
+        }
+    }
+
+
+
 
     }
 
