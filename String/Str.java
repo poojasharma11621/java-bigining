@@ -1,4 +1,4 @@
-package String;
+package jjjjj.String;
 
 import java.nio.channels.WritableByteChannel;
 import java.util.Scanner;

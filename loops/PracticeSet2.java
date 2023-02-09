@@ -1,4 +1,4 @@
-package loops;
+package jjjjj.loops;
 
 import java.util.Scanner;
 
@@ -80,11 +80,11 @@ do{
 }while(i<=n);
 */
 System.out.println("enter  no for pattren");
-    int n=x.nextInt();int sum=1
+    int n=x.nextInt();int sum=1;
     for (int i=1;i<=n;i++){
         for(int j=1;j<=-i;j++){
            sum =sum+1;
-           System.out.print();
+           System.out.print(sum);
         }
     }
 

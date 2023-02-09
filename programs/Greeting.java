@@ -1,5 +1,7 @@
+package jjjjj.programs;
+
 import java.util.Scanner;
-public class greeting {
+public class Greeting {
    public static void main(String[] args) {
     Scanner x=new Scanner (System .in);
     System.out.println("plz enter your Name");

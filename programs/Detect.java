@@ -1,3 +1,4 @@
+package jjjjj.programs;
 import java.util.Scanner;
 public class Detect {
     public static void main(String[] args) {

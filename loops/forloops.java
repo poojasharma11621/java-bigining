@@ -1,10 +1,13 @@
+package jjjjj.loops;
+
+import java.util.Scanner;
+
+
 /*for loop
  * for(initialisation;condition;inc/dec){
  * Sysout()}
  */
-package loops;
 
-import java.util.Scanner;
 
 /**
  * forloops

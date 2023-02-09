@@ -1,3 +1,5 @@
+package jjjjj.programs;
+
 import java.util.Scanner;
 public class KmMile {
     public static void main(String[] args) {

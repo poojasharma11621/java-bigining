@@ -1,5 +1,6 @@
+package jjjjj.programs;
 
- public class Helloworld {
+public class Helloworld {
     public static void main(String[] z){
  
     int a,b,c;

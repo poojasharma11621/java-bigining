@@ -1,3 +1,5 @@
+package jjjjj.programs;
+
 import java .util.Scanner;
 /**
  * Float

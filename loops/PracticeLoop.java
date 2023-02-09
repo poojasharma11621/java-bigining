@@ -1,8 +1,7 @@
-package loops;
+package jjjjj.loops;
 
 import java.util.Scanner;
 
-import ConditionalStatement.I;
 
 
 
@@ -122,6 +121,5 @@ for(int i=1;i<=n;i++){
     System.out.print(i);
 
     
-    }
+    }}}}
  
-}
